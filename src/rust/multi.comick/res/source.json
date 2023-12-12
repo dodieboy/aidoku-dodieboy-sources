@@ -133,7 +133,7 @@
 			"code": "sr"
 		}
 	],
-	"languageSelectType": "single",
+	"languageSelectType": "multi-select",
 	"listings": [
 		{
 			"name": "Hot"
