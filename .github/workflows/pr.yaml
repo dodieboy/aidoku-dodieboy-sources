@@ -99,6 +99,7 @@ jobs:
           if [[ "$i" == *"src/rust"* ]]; then
             (
               cd "$i"
+              chmod +x ./build.sh
               ./build.sh -a
             )
           elif [[ "$i" == *"src/as"* ]]; then
